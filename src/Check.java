@@ -4,10 +4,8 @@ public class Check {
         double line1lenght =lenght(line1);
         double line2lenght =lenght(line2);
         if (line1lenght>line2lenght)
-            System.out.println("początek: "+line1.point1.a+"koniec "+line1.point1.b+"długość odcinka: "+line1lenght);
             return line1;
-
-
+        else return line2;
 
     }
 
